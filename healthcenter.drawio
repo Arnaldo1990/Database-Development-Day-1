@@ -189,7 +189,7 @@
                     <mxGeometry y="116" width="160" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="Zn9QV4uyesa9Uo_A2s1X-1" value="Doctor in Charge" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="360" width="160" height="116" as="geometry"/>
+                    <mxGeometry x="60" y="290" width="160" height="116" as="geometry"/>
                 </mxCell>
                 <mxCell id="Zn9QV4uyesa9Uo_A2s1X-2" value="PK id: integer" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Zn9QV4uyesa9Uo_A2s1X-1">
                     <mxGeometry y="26" width="160" height="30" as="geometry"/>
@@ -201,7 +201,7 @@
                     <mxGeometry y="86" width="160" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nTDUf7cxbXoIrXVMUI1j-1" value="Patient" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="360" width="160" height="176" as="geometry"/>
+                    <mxGeometry x="460" y="280" width="160" height="176" as="geometry"/>
                 </mxCell>
                 <mxCell id="nTDUf7cxbXoIrXVMUI1j-2" value="PK id: integer" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="nTDUf7cxbXoIrXVMUI1j-1">
                     <mxGeometry y="26" width="160" height="30" as="geometry"/>
@@ -217,6 +217,21 @@
                 </mxCell>
                 <mxCell id="prFP1D3SQ5ap6zWHz6CQ-4" value="Date of Admission: date" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="nTDUf7cxbXoIrXVMUI1j-1">
                     <mxGeometry y="146" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="tH6adlmGsXm_Hz5v_1On-1" value="Interventation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="500" width="160" height="146" as="geometry"/>
+                </mxCell>
+                <mxCell id="tH6adlmGsXm_Hz5v_1On-2" value="PK id: integer" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="tH6adlmGsXm_Hz5v_1On-1">
+                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="tH6adlmGsXm_Hz5v_1On-3" value="Setting Date: date" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="tH6adlmGsXm_Hz5v_1On-1">
+                    <mxGeometry y="56" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="tH6adlmGsXm_Hz5v_1On-4" value="Observed Symptom: string" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="tH6adlmGsXm_Hz5v_1On-1">
+                    <mxGeometry y="86" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="tH6adlmGsXm_Hz5v_1On-5" value="Treatment: string" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="tH6adlmGsXm_Hz5v_1On-1">
+                    <mxGeometry y="116" width="160" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
