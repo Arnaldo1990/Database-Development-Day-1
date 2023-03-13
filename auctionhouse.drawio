@@ -202,7 +202,7 @@
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="GZjQb3Xyh-BmK-KO3CtU-1" value="Auction/Transactions" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="80" width="160" height="176" as="geometry"/>
+                    <mxGeometry x="50" y="80" width="160" height="206" as="geometry"/>
                 </mxCell>
                 <mxCell id="GZjQb3Xyh-BmK-KO3CtU-2" value="PK id: integer" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="GZjQb3Xyh-BmK-KO3CtU-1">
                     <mxGeometry y="26" width="160" height="30" as="geometry"/>
@@ -218,6 +218,9 @@
                 </mxCell>
                 <mxCell id="E2AI5nK7VvcjgYcL0sng-1" value="Price: integer" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="GZjQb3Xyh-BmK-KO3CtU-1">
                     <mxGeometry y="146" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="l9NSprhgthz5wiZ4Y8-o-1" value="Sale date: date" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="GZjQb3Xyh-BmK-KO3CtU-1">
+                    <mxGeometry y="176" width="160" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="GZjQb3Xyh-BmK-KO3CtU-5" value="Set" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
                     <mxGeometry x="470" y="80" width="160" height="176" as="geometry"/>
